@@ -1,5 +1,42 @@
 body {
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     background-color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mypic {
+    width: 200px;
+}
+
+.desp {
+    float: right;
+}
+table, th, td {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    align-items: justify;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+td, th {
+    padding: 10px;
+    /* width: 100px; */
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: 3px solid chartreuse;
+    border-top: 3px solid chartreuse;
+    border: 3px solid red;
+    border-left: 3px solid chartreuse;
+    border-right: 3px solid chartreuse;
+}
+
+tr:hover {
+    background-color: gray;
+    font-weight: bolder;
+}
+th:hover, td:hover {
+    background-color: lightslategray;
+    text-decoration: underline;
 }
